@@ -1,10 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## TodoList App using Material Design Components and Icons
+You can run the application using the following scripts:
+ npm install
+ npm start
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Installs all the npm modules required for the application to run
 
 ### `npm start`
 
