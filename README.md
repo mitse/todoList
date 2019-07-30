@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## TodoList App using Material Design Components and Icons
 You can run the application using the following scripts:
- npm install
- npm start
+- npm install
+- npm start
 
 ## Available Scripts
 
