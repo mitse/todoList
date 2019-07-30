@@ -1,0 +1,23 @@
+
+.todo__container{
+    align-items: center;
+    display: flex;
+    padding-inline-start: 10px;
+    margin-bottom: 1vh;
+    background-color: $grey;
+   
+    .todo__text {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        overflow: hidden;
+        padding-inline-start: 5px;
+        height: var(--item-height);
+    }
+}
+
+.todo__container__completed {
+    background-color: $markedColor;
+    border-radius: 0.5rem;
+  }
+   

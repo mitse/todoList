@@ -1,0 +1,17 @@
+.add-todo__container{
+    margin-bottom: 5vh;
+    background: $white;
+    padding: 0 5px 15px;
+    border-radius: 10px;
+    min-height: 10vh;
+
+    .add-todo__text {
+        flex: 1;
+        margin-right: 50px;
+     }
+    
+     .add-todo__date {
+         max-width: 150px;
+     }
+}
+
