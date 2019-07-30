@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## TodoList App using Material Design Components and Icons
+
 ## Available Scripts
 
 In the project directory, you can run:
