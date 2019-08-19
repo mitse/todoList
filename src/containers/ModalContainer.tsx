@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import InfoModal from "../components/UI/modals/InfoModal";
 import { actionModalCreators } from "../state/actions/modalActions";

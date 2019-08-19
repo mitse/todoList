@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import EditTodo from '../../../containers/EditTodo';
 
@@ -12,7 +11,7 @@ const EditTodoModal: React.FC<any> = ({ open, onHandleClose, payload }) => {
             aria-describedby="alert-dialog-description"
         >
         
-            <EditTodo todo={payload}></EditTodo>
+           <EditTodo todo={payload}></EditTodo>
 
         </Dialog>
     )

@@ -20,8 +20,7 @@ const todos = (state = initialState, action: AnyAction): any => {
     case CHANGE_TODO:
         return {
           ...state,
-          todos: state.todos.map((todo: TodoModel) =>  todo.id === action.id ? { ...todo, completed: !todo.completed } : todo),
-          todoChanged: true
+          todos: state.todos.map((todo: TodoModel) =>  todo.id === action.id ? { ...todo, completed: !todo.completed } : todo)
         }
     case EDIT_TODO:
       return {
